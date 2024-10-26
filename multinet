@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet de Fibra Óptica - Claro, Movistar, Tigo</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #0056b3;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        /* Encabezado */
+        header {
+            background: #0056b3;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /* Hero Section */
+        .hero {
+            background: url('fondo.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        .hero button {
+            padding: 10px 20px;
+            background-color: #ff5733;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* Comparativa de planes */
+        .planes {
+            padding: 50px 0;
+        }
+        .planes table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .planes th, .planes td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        /* Beneficios */
+        .beneficios {
+            background-color: #f9f9f9;
+            padding: 50px 20px;
+        }
+        .beneficios .benefit {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        /* Opiniones de clientes */
+        .opiniones {
+            padding: 50px 20px;
+        }
+        .opinion {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        /* Proceso de contratación */
+        .contratacion {
+            padding: 50px 20px;
+            background-color: #f2f2f2;
+        }
+        /* Preguntas frecuentes */
+        .faq {
+            padding: 50px 20px;
+        }
+        /* Formulario de contacto */
+        .contacto {
+            padding: 50px 20px;
+            background-color: #0056b3;
+            color: #fff;
+        }
+        .contacto form {
+            max-width: 600px;
+            margin: auto;
+        }
+        .contacto input, .contacto textarea, .contacto button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        .contacto button {
+            background-color: #ff5733;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Internet de Fibra Óptica - Claro, Movistar, Tigo</h1>
+        <nav>
+            <a href="#planes">Planes</a>
+            <a href="#beneficios">Beneficios</a>
+            <a href="#opiniones">Opiniones de Clientes</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>¡Conéctate al Futuro con Fibra Óptica!</h1>
+        <p>Elige el mejor plan para tu hogar o negocio y disfruta de la máxima velocidad y estabilidad.</p>
+        <button onclick="document.getElementById('planes').scrollIntoView()">Ver Planes</button>
+    </section>
+
+    <!-- Comparativa de Planes -->
+    <section id="planes" class="planes container">
+        <h2>Encuentra el Plan Perfecto para Ti</h2>
+        <table>
+            <tr>
+                <th>Proveedor</th>
+                <th>Velocidad</th>
+                <th>Precio</th>
+                <th>Beneficios</th>
+                <th>Contratar</th>
+            </tr>
+            <tr>
+                <td>Claro</td>
+                <td>100 Mbps</td>
+                <td>$30</td>
+                <td>Router gratis, instalación sin costo</td>
+                <td><button>Contratar Ahora</button></td>
+            </tr>
+            <tr>
+                <td>Movistar</td>
+                <td>300 Mbps</td>
+                <td>$50</td>
+                <td>3 meses de descuento</td>
+                <td><button>Contratar Ahora</button></td>
+            </tr>
+            <tr>
+                <td>Tigo</td>
+                <td>600 Mbps</td>
+                <td>$70</td>
+                <td>Descuento en streaming</td>
+                <td><button>Contratar Ahora</button></td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Beneficios -->
+    <section id="beneficios" class="beneficios container">
+        <h2>¿Por qué Elegir Fibra Óptica?</h2>
+        <div class="benefit">Velocidad Superior</div>
+        <div class="benefit">Conexión Estable</div>
+        <div class="benefit">Seguridad y Fiabilidad</div>
+    </section>
+
+    <!-- Opiniones de Clientes -->
+    <section id="opiniones" class="opiniones container">
+        <h2>Lo Que Dicen Nuestros Clientes</h2>
+        <div class="opinion">⭐⭐⭐⭐⭐ - "Excelente servicio, nunca me quedo sin conexión!"</div>
+        <div class="opinion">⭐⭐⭐⭐ - "Ideal para el trabajo desde casa y streaming."</div>
+    </section>
+
+    <!-- Proceso de Contratación -->
+    <section class="contratacion container">
+        <h2>¡Contratar Internet Nunca Fue Tan Fácil!</h2>
+        <ol>
+            <li>Escoge Tu Plan</li>
+            <li>Completa el Formulario</li>
+            <li>Disfruta de la Conexión</li>
+        </ol>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form action="/enviar_formulario" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre Completo" required>
+            <input type="tel" name="telefono" placeholder="Número de Teléfono" required>
+            <input type="email" name="correo" placeholder="Correo Electrónico" required>
+            <input type="text" name="direccion" placeholder="Dirección (opcional)">
+            <textarea name="mensaje" placeholder="¿Tienes alguna pregunta o quieres un plan específico?" rows="4"></textarea>
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </section>
+
+</body>
+</html>
